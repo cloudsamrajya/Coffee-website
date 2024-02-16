@@ -1,0 +1,312 @@
+
+
+
+*{
+    padding: 0;
+    margin : 0;
+}
+
+
+.timing{
+    background-color: rgba(22 21, 21, 0.61);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+    
+}
+.timing span{
+    margin-right: 30px;
+}
+.navlink li{
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+ .navlink{
+    display: flex;
+    min-width: 40%;
+    justify-content: space-around;
+
+
+
+}
+.navlink .active{
+    background-color: brown;
+    color: white;
+}
+.navlink a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    /* box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2); */
+    min-height: 10vh;
+    align-items: end;
+    padding-bottom: 10px;
+
+}
+.title{
+    display: flex;
+    flex-direction: column;
+}
+.navlink li:hover:not(.active){
+    background-color: grey;
+}
+.banner .bannerbackground{
+width: 100%;
+height: auto;
+}
+.bannertitle{
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    height: 200px;
+}
+.bannertitle .toptitle{
+    display: flex;
+    flex-direction: column;
+}
+.banner{
+    position: relative;
+}
+.bannerContent{
+    padding:30px;
+position: absolute;
+top: 0px;
+}
+.t1{
+    height: 30px;
+    margin-top: 60px;
+}
+.t2{
+    display: flex;
+    flex-direction: column;
+    height:60px;
+}
+.bottomtitle{
+    height: 100px;
+}
+.button1{
+    border-radius: 6px;
+    background-color: #8B4513	;
+    color: white;
+    padding: 10px;
+    border: 0;
+}
+
+ .middletitle .t3{
+margin: 30px 0px 0px 500px;
+display: flex;
+flex-direction: column;
+
+}
+.t4 img{
+height: 200px;
+mix-blend-mode: darken;
+position: absolute;
+left: 600px;
+top: 0px;
+}
+.middletitle{
+    height: 30px;
+position: relative;
+left: 70px;
+bottom: 35px;
+}
+.girl img{ 
+    width: auto;
+    height: 350px;
+
+}
+.con1{
+   display: flex;                     /*this code is used to place the picture and text sideways*/
+   align-items: center;
+justify-content: center;
+margin: 100px;
+
+
+
+}
+.intro{
+    height: 350px;
+    padding-left: 50px;
+    
+}
+.para1{
+    margin-top: 40px;
+    margin-right: 80px;
+}
+.para2{
+    margin-top: 40px;
+    margin-right: 120px;
+}
+.headcontain{
+    background-color: #967969	;
+    padding: 20px;
+    padding-bottom: 80px;
+   
+}
+#sentence1,#sentence2{
+    color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 30px;
+}
+.containA{
+margin: auto;
+padding-top: 50px;
+
+}
+.contain1{
+    width: 232px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 30px 10px 30px;
+
+   
+}
+.contain2{
+    width: 232px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 30px 10px 30px;
+    margin-top: 50px;
+
+   
+}
+.contain3{
+    width: 232px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 30px 10px 30px;
+    margin-top: 50px;
+
+   
+}
+.middlecontain{
+    display: flex;
+}
+.title1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 70px;
+
+}
+
+
+.col1,.col2{
+    display: flex;
+    justify-content: center;
+       
+    
+
+}
+.title1 span{
+height: 30px;
+}
+
+.secondcontain{
+padding-bottom: 50px;}
+.review{
+    display: flex;
+    flex-direction: column;
+    background-color: #967969 ;
+    height: 800px;
+}
+
+
+
+
+.review1 {
+    color: white;
+    padding: 150px;
+    height: 400px;
+    width: 300px;
+}
+#star {
+    padding-left: 10px;
+}
+.review2{
+    position: absolute;
+    left: 700px;
+    color: white;
+    padding: 150px;
+    height: 400px;
+    width: 300px;
+    /* bottom: 500px; */ 
+}
+.bottomcontain{
+  width: 180vmin;
+    position: relative;
+  left: 145px;
+  bottom: 245px;
+
+display: flex;
+}
+.num1{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.num2{
+    display: flex;
+margin-left: 110px;
+
+display: flex;
+flex-direction: column;
+color: white;
+
+
+}
+.num3{
+    display: flex;
+margin-left: 412px;
+display: flex;
+flex-direction: column;
+
+color: white;
+
+
+}
+.num4{
+    display: flex;
+    margin-left: 110px;
+
+display: flex;
+flex-direction: column;
+color: white;
+
+}
+
+.links{
+height: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 39px;
+}
+
+
+.link{
+  padding: 5px;
+ font-size: 34px;
+ /* margin-top: 59px; */
+ background-color: #967969;
+ color: white;
+ margin: 59px 8px 0px 0px;
+ height: 34px;
+ width: 34px;
+ /* margin: 0 8px 3px; */
+ border-radius: 50%;
+ 
+}
